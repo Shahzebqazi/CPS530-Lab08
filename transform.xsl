@@ -10,7 +10,6 @@
     </head>
     <body>
       <h2>Currently playing</h2>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/91zgnT7HDtL._SL1500_.jpg" alt="Another Good Vibration" width="400" height="400">
         <table>
           <tr>
             <th>Title</th>
