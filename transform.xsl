@@ -9,7 +9,7 @@
       </script>
     </head>
     <body>
-      <h2>Currently playing</h2>
+      <h2>Currently Playing</h2>
         <table>
           <tr>
             <th>Title</th>
