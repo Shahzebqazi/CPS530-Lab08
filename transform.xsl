@@ -14,7 +14,6 @@
           <tr>
             <th>Title</th>
             <th>Artist</th>
-            <th>Album</th>
           </tr>
           <xsl:for-each select="track">
             <tr>
@@ -23,9 +22,6 @@
               </td>
               <td>
                 <xsl:value-of select="title"/>
-              </td>
-              <td>
-                <xsl:value-of select="album"/>
               </td>
             </tr>
           </xsl:for-each>
