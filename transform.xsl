@@ -10,13 +10,12 @@
     </head>
     <body>
       <h2>Currently playing</h2>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91zgnT7HDtL._SL1500_.jpg" alt="Another Good Vibration" width="400" height="400">
         <table>
           <tr>
             <th>Title</th>
             <th>Artist</th>
             <th>Album</th>
-            <th>Length</th>
-            <th>Cover Art</th>
           </tr>
           <xsl:for-each select="track">
             <tr>
@@ -29,7 +28,6 @@
               <td>
                 <xsl:value-of select="album"/>
               </td>
-              <td><img src="https://images-na.ssl-images-amazon.com/images/I/91zgnT7HDtL._SL1500_.jpg" alt="Another Good Vibration" width="400" height="400"></td>
             </tr>
           </xsl:for-each>
         </table>
