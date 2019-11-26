@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="StyleSheet.css" rel="stylesheet">
+	<title>Lab 08 Xml to JSON to HTML </title>
+</head>
+<body>
+	<h1>JSON to HTML</h1>
+	<table class="center">
+        <thead>
+            <tr>
+                <th title="Field #1">Artist</th>
+                <th title="Field #2">Title</th>
+                <th title="Field #3">Album</th>
+                <th title="Field #4">Length</th>
+                <th title="Field #5">Album Art</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Kohala</td>
+            <td>The Way That You Want It to Be [2006]</td>
+            <td>Deeper Blue</td>
+            <td>0</td>
+            <td><img src="https://images-na.ssl-images-amazon.com/images/I/91zgnT7HDtL._SL1500_.jpg" alt="Another Good Vibration" width="400" height="400"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <script>
+    var songInfo = [{
+           "track/artist": "Kohala",
+           "track/title": "The Way That You Want It to Be [2006]",
+           "track/album": "Deeper Blue",
+           "track/length": 0,
+           "track/imageurl": "https://images-na.ssl-images-amazon.com/images/I/91zgnT7HDtL._SL1500_.jpg"
+         }
+        ]
+    </script>
+
+</body>
+</html>
