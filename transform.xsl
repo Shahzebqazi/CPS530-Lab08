@@ -4,6 +4,7 @@
 <xsl:template match="/response/data/item">
   <html>
     <head>
+      <link href="StyleSheet.css" rel="stylesheet">
       <script type="text/javascript">
         setInterval(function() { window.location.reload(); }, 240000);
       </script>
